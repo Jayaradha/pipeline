@@ -1,2 +1,2 @@
-# pipeline
-Health Data Ingestion Transformation and Machine learning using Lambda Architecture
+# Diabetic.io
+(Big Data pipeline Recommender to suggest insulin intake for diabetic patients)
