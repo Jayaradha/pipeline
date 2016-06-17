@@ -22,7 +22,24 @@ recommend the insulin intake
  - Docker : Deploy the entier deployment artifact into docker container. 
 
 #Lambda Architecture:
-![alt tag](http://url/to/img.png)
+![alt tag](https://github.com/Jayaradha/pipeline/blob/master/images/lambda.png)
+
+#Data Input Format:
+
+
+#STEPS:
+Generate Data
+Random Forest (Accuracy - validate)
+Web UI
+Kafka - spark -S3 
+Notification (Mobile)
+Deploy using Docker or Ambari or AMR
+
+#Algorithm to use:                      
+Random Forest, Regression module, Naive bayes - Continuous training - spark documentation. (NO)
+
+
+
 
 
 
