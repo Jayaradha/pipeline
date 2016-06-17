@@ -25,7 +25,7 @@ recommend the insulin intake
 ![alt tag](https://github.com/Jayaradha/pipeline/blob/master/images/lambda.png)
 
 #Data Input Format:
-![alt tag](pipeline/images/input.png)
+![alt tag](https://github.com/Jayaradha/pipeline/blob/master/images/input.png)
 
 #STEPS:
 - Generate Data
