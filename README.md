@@ -57,6 +57,7 @@ Can spend one or 2 days and keep moving if things didn’t work as expected.
 Working on generating data for now. This week end I will try to have some data.
 
 ##References:
+- http://reference.medscape.com/drug/humalog-insulin-lispro-999005
 
 
 
