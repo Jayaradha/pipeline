@@ -1,0 +1,42 @@
+
+
+cd /Users/arivolit/Gavanize/dei-student-2/kafka/kafka_2.10-0.8.2.1
+
+Start Zookeeper
+./bin/zookeeper-server-start.sh config/zookeeper.properties
+
+Start kafka Server
+./bin/kafka-server-start.sh config/server.properties
+
+Create a topic.
+./bin/kafka-topics.sh \
+  --zookeeper localhost:2181 \
+  --topic sensorData \
+  --create \
+  --replication-factor 1 \
+  --partitions 1
+
+  List Topics
+  ./bin/kafka-topics.sh  \
+    --zookeeper localhost:2181 \
+    --list
+
+    ./bin/kafka-console-consumer.sh \
+      --zookeeper localhost:2181 \
+      --topic sensorData \
+      --from-beginning
+
+      Test
+
+      echo 'hello world' | \
+        ./bin/kafka-console-producer.sh \
+          --broker-list localhost:9092 \
+          --topic sensorData
+
+            ./medication.py | \
+                  ./bin/kafka-console-producer.sh \
+                    --broker-list localhost:9092 \
+                    --topic sensorData
+
+
+

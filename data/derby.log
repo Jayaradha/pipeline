@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Jun 21 09:20:32 PDT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0155-73c3-5fcb-000033b0f020 
+on database directory /Users/arivolit/Gavanize/capstone/pipeline/data/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@6e6ec71f 
+Loaded from file:/usr/local/spark-1.6.1-bin-hadoop2.6/lib/spark-assembly-1.6.1-hadoop2.6.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_60-b27
+user.dir=/Users/arivolit/Gavanize/capstone/pipeline/data
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.10
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

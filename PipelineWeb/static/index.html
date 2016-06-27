@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <title>Titanic survival predictor</title>
+</head>
+
+<style>
+
+
+#mybody {
+
+  width:100%;
+  height:100%;
+  display: block;
+  position: relative;
+  background: url("https://raw.githubusercontent.com/zipfian/dei-student-2/master/ds-classifiers/images/titanic-sinking.png?token=AKcSTZcPYyUmQvwUfNYkQI5eaFr2BqeVks5Xbc5lwA%3D%3D");
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  color: white;
+}
+
+input{
+    color:black;
+}
+​
+
+</style>
+
+<body >
+<div id="mybody">
+
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-4" >
+
+            </div>
+            <div class="col-md-4" >
+                <h1>Titanic survival predictor</h1><br />
+                <fieldset>
+                    <legend></legend>
+
+                    Enter Age:
+                    <input type="number" id="age" min="0" /><br />
+
+                    Enter Gender:
+                    <select id="gender">
+                        <option value="0">male</option>
+                        <option value="1">female</option>
+                    </select><br />
+
+                    Enter Class:
+                    <select id="pclass">
+                        <option value="0">First Class</option>
+                        <option value="1">Second Class</option>
+                        <option value="2">Third Class</option>
+                    </select><br /><br />
+
+                    <input type="button" id="getResult" value="PREDICT"  ><br /><br />
+                </fieldset>
+                <fieldset>
+                    <legend></legend>
+                    Survived: <span id="survived"></span>
+                </fieldset>
+            </div>
+            <div class="col-md-4" style="background-color:lightblue;">
+
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+
+$(document).ready(function () {
+  $('#getResult').click(function () {
+
+    var survived = $('#survived');
+    var jsonUrl = "/app/getResult.json?pclass=" + $('#pclass').val() + "&age=" + $('#age').val() + "&gender=" + $('#gender').val()
+
+    $.getJSON(jsonUrl, function(data) {
+      console.log(data);
+
+      <!--var items = data.map(function (item) {-->
+        <!--return item.dataKey + ': ' + item.dataValue;-->
+      <!--});-->
+
+      survived.empty();
+
+      //if (data.length) {
+        survived.text(data.dataValue);
+      //}
+    });
+
+    return false;
+
+  });
+});
+
+</script>
+
+
+</div>
+</body>
+</html>
