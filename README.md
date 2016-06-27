@@ -25,18 +25,39 @@ recommend the insulin intake
 ![alt tag](https://github.com/Jayaradha/pipeline/blob/master/images/lambda.png)
 
 #Data Input Format:
-
+![alt tag](https://github.com/Jayaradha/pipeline/blob/master/images/input.png)
 
 #STEPS:
-Generate Data
-Random Forest (Accuracy - validate)
-Web UI
-Kafka - spark -S3 
-Notification (Mobile)
-Deploy using Docker or Ambari or AMR
+- Generate Data
+- Random Forest (Accuracy - validate)
+- Web UI
+- Kafka - spark -S3 
+- Notification (Mobile)
+- Deploy using Docker or Ambari or AMR
 
 #Algorithm to use:                      
-Random Forest, Regression module, Naive bayes - Continuous training - spark documentation. (NO)
+Random Forest, Regression module, Naive bayes - Continuous training - spark documentation. 
+
+#Issues and Resolutions
+- Can you anticipate problems, what are they, do you need to overcome them now? How do you overcome them?
+  Kafka -> Flink (I want to try and if it didn’t work i will move to some other technique)
+  Docker -> Never tried before and need to set it up.
+
+- How far do you anticipate to take the project in the allotted time frame? 
+Can spend one or 2 days and keep moving if things didn’t work as expected.
+
+- Any other repos, libraries and other tools that you're considering using? Are you citing them? Are you acknowledging them for their contribution?
+     * Catherine Croft Ph.d research scientist from University of Auckland, NewZealand will assist in trying this with real time use case. I will add necessary links in my project.
+
+     * Trying to get data from a pharmacist in India as well.
+
+     * Dan Moris from Radius said he can also help me through his sources to get data.
+
+- Data
+Working on generating data for now. This week end I will try to have some data.
+
+##References:
+- http://reference.medscape.com/drug/humalog-insulin-lispro-999005
 
 
 
