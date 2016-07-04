@@ -32,7 +32,7 @@ The entire big data pipeline will be implemented using Lambda Architecture.
  - EC2 : Kafka and Spark streaming in EC2
 
 #Lambda Architecture:
-![alt tag](https://github.com/Jayaradha/pipeline/blob/master/images/lambda.png)
+![alt tag](https://github.com/Jayaradha/pipeline/blob/master/images/Architecture.png)
 
 #Data Input Format:
 ![alt tag](https://github.com/Jayaradha/pipeline/blob/master/images/input.png)
