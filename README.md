@@ -1,5 +1,5 @@
 # Diabetic.io
-(Big Data pipeline Recommender to suggest insulin intake for diabetic patients)
+######(Big Data pipeline Recommender to suggest insulin intake for diabetic patients)
 
 - Introduction
 - Technology used
@@ -52,6 +52,15 @@ Use python script to generate data using array of medications and range of blood
 ##Data formate after cleanup
 ![alt tag](https://github.com/Jayaradha/pipeline/blob/master/images/input.png)
 
+#Kafka Streaming from sensor device
+Companies like abott are using wearable glucose monitors (http://www.imedicalapps.com/2014/09/abbotts-wearable-glucose-monitor/). Collect sensor data into s3 using spark streaming
+```
+  val ds = kafkaStream.transform(rdd =>rdd
+      .map{case(key,value) => value}
+      .map(line => line.split(","))
+      .map{case Array(patientID,patientWeight,age,sex,mdate,bgbefore,medication,bgafter,ampm)
+      =>(patientID,patientWeight,age,sex,mdate,bgbefore,medication,bgafter,ampm)})
+```
 
 #Algorithm to use:                      
 Random Forest, Regression
