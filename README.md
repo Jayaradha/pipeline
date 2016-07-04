@@ -1,6 +1,16 @@
 # Diabetic.io
 (Big Data pipeline Recommender to suggest insulin intake for diabetic patients)
 
+Introduction
+Technology used
+Architecture
+Kafka Streaming from sensor device
+Random Forest Model generation
+RESTfull Services
+Mobile App
+ScreenShots
+
+
 #Project Description:
 American Diabetic association states that 29.1 million Americans, 300+ million people all over had diabetes. Diabetic medication management is always challenging.
 
