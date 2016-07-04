@@ -84,15 +84,14 @@ The model is generated in S3 bucket. Predict the model and use scalatra and gene
     val MorningMedication = model.predict(Vectors.dense(Array(ampm, MorningAfterMedicationBloodGlucose, Gender)))
 ```
 
+#Deployment
+ Model generation from spark to s3 is deployed in EMR cluster and a scheduled to run every day. Kafka is deployed in EC2 m4Xlarge instance. Scalatra is deployed in EC2 m4Xlarge instance.
 
+#Mobile App
+Scalatra genrated services are consumed by mobile app and the morning and evening medication is sent to customers mobile
+
+#ScreenShots
 
 
 ##References:
 - http://reference.medscape.com/drug/humalog-insulin-lispro-999005
-
-
-
-
-
-
-
