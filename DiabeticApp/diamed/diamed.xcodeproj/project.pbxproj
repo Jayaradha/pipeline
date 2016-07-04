@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E40B259E1D28D11C001D2C08 /* Diabetic-Medication1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E40B259D1D28D11C001D2C08 /* Diabetic-Medication1.jpg */; };
+		E40B25A01D28D1EC001D2C08 /* leaf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E40B259F1D28D1EC001D2C08 /* leaf.jpg */; };
 		E43FB58C1D1B162E00C0F9BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43FB58B1D1B162E00C0F9BB /* AppDelegate.swift */; };
 		E43FB58E1D1B162E00C0F9BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43FB58D1D1B162E00C0F9BB /* ViewController.swift */; };
 		E43FB5911D1B162E00C0F9BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43FB58F1D1B162E00C0F9BB /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E40B259D1D28D11C001D2C08 /* Diabetic-Medication1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Diabetic-Medication1.jpg"; path = "../../../../../../Downloads/Diabetic-Medication1.jpg"; sourceTree = "<group>"; };
+		E40B259F1D28D1EC001D2C08 /* leaf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leaf.jpg; sourceTree = "<group>"; };
 		E43FB5861D1B162E00C0F9BB /* diamed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diamed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43FB58A1D1B162E00C0F9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E43FB58B1D1B162E00C0F9BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,7 +83,9 @@
 		E43FB5881D1B162E00C0F9BB /* diamed */ = {
 			isa = PBXGroup;
 			children = (
+				E40B259D1D28D11C001D2C08 /* Diabetic-Medication1.jpg */,
 				E43FB58B1D1B162E00C0F9BB /* AppDelegate.swift */,
+				E40B259F1D28D1EC001D2C08 /* leaf.jpg */,
 				E43FB5AB1D1B493B00C0F9BB /* green.jpeg */,
 				E43FB58D1D1B162E00C0F9BB /* ViewController.swift */,
 				E43FB58F1D1B162E00C0F9BB /* Main.storyboard */,
@@ -197,6 +203,8 @@
 			files = (
 				E43FB5911D1B162E00C0F9BB /* Main.storyboard in Resources */,
 				E43FB5961D1B162E00C0F9BB /* LaunchScreen.xib in Resources */,
+				E40B25A01D28D1EC001D2C08 /* leaf.jpg in Resources */,
+				E40B259E1D28D11C001D2C08 /* Diabetic-Medication1.jpg in Resources */,
 				E43FB5931D1B162E00C0F9BB /* Images.xcassets in Resources */,
 				E43FB5AC1D1B493B00C0F9BB /* green.jpeg in Resources */,
 			);
@@ -415,6 +423,7 @@
 				E43FB5A71D1B162E00C0F9BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E43FB5A81D1B162E00C0F9BB /* Build configuration list for PBXNativeTarget "diamedTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +432,7 @@
 				E43FB5AA1D1B162E00C0F9BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

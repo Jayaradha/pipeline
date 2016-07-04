@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         // Create the lables
        lblMedication.text = "Baba Med"
         
-        let urlPath = "http://localhost:8089/app/getResult.json?ampm=1&MorningAfterMedicationBloodGlucose=140.0&Gender=1"
+        let urlPath = "http://ec2-52-91-142-211.compute-1.amazonaws.com:8089/app/getResult.json?ampm=1&MorningAfterMedicationBloodGlucose=140.0&Gender=1"
         let url = NSURL(string:urlPath)!
         let session = NSURLSession.sharedSession()
         var strmedlist = ""
@@ -32,8 +32,6 @@ class ViewController: UIViewController {
                let jsonResult =  NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: nil) as! NSDictionary
                 
                 let medication: AnyObject? = jsonResult["dataValue"]
-           
-                
                 if let value1: AnyObject = jsonResult["dataValue"] {
                     println(value1)
                     dispatch_async(dispatch_get_main_queue()) {
@@ -45,6 +43,12 @@ class ViewController: UIViewController {
                             mymed = "Metformin 250mg"
                             self.lblMedication.text = mymed
                         }
+                        else
+                        {
+                            mymed = "Metformin 500mg"
+                            self.lblMedication.text = mymed
+                        }
+                        
                         
                     }
                 }
