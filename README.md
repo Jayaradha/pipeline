@@ -7,6 +7,7 @@
 - Data Collection and cleanup
    - Data from sources
    - Generated Data
+   - Data formate after cleanup
 - Kafka Streaming from sensor device
 - Random Forest Model generation
 - RESTfull Services
