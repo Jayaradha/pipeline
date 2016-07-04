@@ -5,6 +5,8 @@
 - Technology used
 - Architecture
 - Data Collection and cleanup
+   - Data from sources
+   - Generated Data
 - Kafka Streaming from sensor device
 - Random Forest Model generation
 - RESTfull Services
@@ -38,8 +40,10 @@ The entire big data pipeline will be implemented using Lambda Architecture.
 #Data Collection and cleanup:
 
 ##Data from sources
-Data from Baba Medicals (india)
-Data from Dr Catherine Croft Phd from university of Auckland
+Collected data from medical facilities as well as universities where similar kind of research is going on
+Below are the 2 are the 2 major data sources
+ - Data from Baba Medicals (india)
+ - Data from Dr Catherine Croft Phd from university of Auckland
 
 ##Generated Data
 Use python script to generate data using array of medications and range of blood glucose level
