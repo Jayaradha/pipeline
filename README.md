@@ -1,14 +1,14 @@
 # Diabetic.io
 (Big Data pipeline Recommender to suggest insulin intake for diabetic patients)
 
-Introduction
-Technology used
-Architecture
-Kafka Streaming from sensor device
-Random Forest Model generation
-RESTfull Services
-Mobile App
-ScreenShots
+- Introduction
+- Technology used
+- Architecture
+- Kafka Streaming from sensor device
+- Random Forest Model generation
+- RESTfull Services
+- Mobile App
+- ScreenShots
 
 
 #Project Description:
