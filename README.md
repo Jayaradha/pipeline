@@ -48,8 +48,9 @@ Below are the 2 are the 2 major data sources
 
 ##Generated Data
 Use python script to generate data using array of medications and range of blood glucose level
-![alt tag](https://github.com/Jayaradha/pipeline/blob/master/images/input.png)
 
+##Data formate after cleanup
+![alt tag](https://github.com/Jayaradha/pipeline/blob/master/images/input.png)
 
 
 #Algorithm to use:                      
