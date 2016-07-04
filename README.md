@@ -76,8 +76,8 @@ Companies like abott are using wearable glucose monitors (http://www.imedicalapp
       labeledPoint
     })
  ```
- 
- #RESTfull Services
+
+#RESTfull Services
 The model is generated in S3 bucket. Predict the model and use scalatra and generate RESTful service
 
 ```
