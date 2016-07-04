@@ -4,6 +4,7 @@
 - Introduction
 - Technology used
 - Architecture
+- Data Collection and cleanup
 - Kafka Streaming from sensor device
 - Random Forest Model generation
 - RESTfull Services
@@ -34,16 +35,17 @@ The entire big data pipeline will be implemented using Lambda Architecture.
 #Lambda Architecture:
 ![alt tag](https://github.com/Jayaradha/pipeline/blob/master/images/Architecture.png)
 
-#Data Input Format:
+#Data Collection and cleanup:
+
+##Data from sources
+Data from Baba Medicals (india)
+Data from Dr Catherine Croft Phd from university of Auckland
+
+##Generated Data
+Use python script to generate data using array of medications and range of blood glucose level
 ![alt tag](https://github.com/Jayaradha/pipeline/blob/master/images/input.png)
 
-#STEPS:
-- Generate Data
-- Random Forest (Accuracy - validate)
-- Web UI
-- Kafka - spark -S3 
-- Notification (Mobile)
-- Deploy using Docker or Ambari or AMR
+
 
 #Algorithm to use:                      
 Random Forest, Regression
