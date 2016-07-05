@@ -8,12 +8,14 @@
    - Data from sources
    - Generated Data
    - Data formate after cleanup
-- Kafka Streaming from sensor device
+- Kafka Streaming from Sensor Device
 - Random Forest Model generation
 - RESTfull Services
 - Deployment
-- Mobile App
-- ScreenShots
+- Mobile Application
+- Screen Shots
+- Future Scope
+- Credits
 
 
 #Introduction:
