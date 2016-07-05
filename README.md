@@ -19,7 +19,7 @@
 
 
 #Introduction:
-American Diabetic association states that 29.1 million Americans, 300+ million people all over had diabetes. Diabetic medication management is always challenging.
+American Diabetic association states that 29.1 million Americans and 300+ million people all over have/had diabetes. Diabetic medication management is always challenging.
 
 Patients take insulin dosage one hour before lunch or dinner or breakfast based on Dr's prescription. But the real world scenario the insulin intake can be changed based on the blood glucose level,  calorie intake on specific day. 
 
