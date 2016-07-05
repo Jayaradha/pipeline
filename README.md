@@ -87,13 +87,21 @@ The model is generated in S3 bucket. Predict the model and use scalatra and gene
 ```
 
 #Deployment
- Model generation from spark to s3 is deployed in EMR cluster and a scheduled to run every day. Kafka is deployed in EC2 m4Xlarge instance. Scalatra is deployed in EC2 m4Xlarge instance.
+ Model generation from spark to s3 is deployed in EMR cluster a scheduled to run batch process. Kafka is deployed in EC2 m4Xlarge instance. Scalatra is deployed in EC2 m4Xlarge instance.
 
 #Mobile App
 Scalatra genrated services are consumed by mobile app and the morning and evening medication is sent to customers mobile
 
 #ScreenShots
 
+#Future Scope
+Predict calorie intake
+Predict workouts need to be done
+Extend it to apply to any medication management based solutions and emergency medication management
+
+#Credits
+Deva from baba medicals India (Initial data)
+Catherin Croft Phd from Auckland University, for validating the results.
 
 ##References:
 - http://reference.medscape.com/drug/humalog-insulin-lispro-999005
