@@ -23,7 +23,7 @@ Patients take insulin dosage one hour before lunch or dinner or breakfast based 
 
 Based on Calorie intake and Blood glucose level from public as well as generated dataset recommend insulin dosage which will help patients to avoid over/under dosage. 
 
-#Technology Used:
+#Technology Stack:
 The entire big data pipeline will be implemented using Lambda Architecture.
 
  - Kafka for streaming:Get data from socket streaming. Data is generated from wearable sensor monitor
